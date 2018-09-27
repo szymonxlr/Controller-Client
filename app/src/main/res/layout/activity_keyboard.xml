@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/surface"
+    android:visibility="visible"
+    tools:context="com.example.szymonxlr.a209382_projekt.Keyboard">
+
+    <LinearLayout
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/b_esc"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_27"
+            android:text="ESC"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f1"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_112"
+            android:text="F1"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f2"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_113"
+            android:text="F2"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f3"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_114"
+            android:text="F3"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f4"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_115"
+            android:text="F4"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f5"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_116"
+            android:text="F5"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f6"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_117"
+            android:text="F6"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f7"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_118"
+            android:text="F7"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f8"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_119"
+            android:text="F8"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f9"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_120"
+            android:text="F9"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f10"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_121"
+            android:text="F10"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f11"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_122"
+            android:text="F11"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/b_f12"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_123"
+            android:text="F12"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/insert"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_INSERT"
+            android:text="ins"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/home"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_HOME"
+            android:text="hom"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/delete"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_DELETE"
+            android:text="del"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/end"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_END"
+            android:text="end"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/control"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="-1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address">
+
+        <Button
+            android:id="@+id/meta"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_192"
+            android:text="~ \n`"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_1"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_49"
+            android:text="!\n1"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_2"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_50"
+            android:text="&#64;\n2"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_3"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_51"
+            android:text="#\n3"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_4"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_52"
+            android:text="$\n4"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_5"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_53"
+            android:text="%\n5"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_6"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_54"
+            android:text="^\n6"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_7"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_55"
+            android:text="&amp;\n7"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_8"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_56"
+            android:text="*\n8"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_9"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_57"
+            android:text="(\n9"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_0"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_48"
+            android:text=")\n0"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_min"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_MINUS"
+            android:text="_\n-"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_plus"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_PLUS"
+            android:text="+\n="
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/backspace"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_8"
+            android:text="Back\nspace"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/control">
+
+        <Button
+            android:id="@+id/tab"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_9"
+            android:text="Tab\n"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/Q"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_81"
+            android:text="Q\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/W"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_87"
+            android:text="W\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/E"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_69"
+            android:text="E\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/R"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_82"
+            android:text="R\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/T"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_84"
+            android:text="T\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/Y"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_89"
+            android:text="Y\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/U"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_85"
+            android:text="U\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/I"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_73"
+            android:text="I\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/O"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_79"
+            android:text="O\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/P"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_80"
+            android:text="P\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/ob"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_OB"
+            android:text="{\n["
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/cb"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_CB"
+            android:text="}\n]"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/Enter"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_ENTER"
+            android:text="Enter\n"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l3">
+
+        <Button
+            android:id="@+id/caps"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_20"
+            android:text="Caps\nLock"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/A"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_65"
+            android:text="A\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/S"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_83"
+            android:text="S\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/D"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_68"
+            android:text="D\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/F"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_70"
+            android:text="F\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/G"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_71"
+            android:text="G\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/H"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_72"
+            android:text="H\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/J"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_74"
+            android:text="J\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/K"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_75"
+            android:text="K\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/L"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_76"
+            android:text="L\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/colon"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_COLON"
+            android:text=":\n;"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/quote"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_QUOTE"
+            android:text="&quot;\n'"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_bs"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_BSLASH"
+            android:text="|\n\"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l4">
+
+        <Button
+            android:id="@+id/l_shift"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_16"
+            android:text="Shift\n"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/Z"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_90"
+            android:text="Z\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/X"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_88"
+            android:text="X\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/C"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_67"
+            android:text="C\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/V"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_86"
+            android:text="V\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/B"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_66"
+            android:text="B\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/N"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_78"
+            android:text="N\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/M"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_77"
+            android:text="M\n"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_comma"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_COMMA"
+            android:text="&lt;\n,"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_dot"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_DOT"
+            android:text="&gt;\n."
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/b_slash"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_SLASH"
+            android:text="?\n/"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/r_shift"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_16"
+            android:text="Shift\n"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l6"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l5">
+
+        <Button
+            android:id="@+id/ctrl_l"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_17"
+            android:text="Ctrl"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/win"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kSPEC_WINDOWS"
+            android:text="☻"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/alt_l"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_18"
+            android:text="Alt"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/space"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_32"
+            android:text="Space"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/alt_r"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_18"
+            android:text="Alt"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/ctrl_r"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:tag="kID_17"
+            android:text="Ctrl"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
